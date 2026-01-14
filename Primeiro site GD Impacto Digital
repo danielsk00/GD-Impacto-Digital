@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GD Impacto Digital</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #0b0f1a;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      background: radial-gradient(circle at top, #11162a, #0b0f1a);
+    }
+
+    header img {
+      width: 180px;
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+
+    header p {
+      max-width: 600px;
+      margin-bottom: 30px;
+      font-size: 1.1rem;
+      color: #d0d0d0;
+    }
+
+    .btn {
+      background: #ffffff;
+      color: #0b0f1a;
+      padding: 15px 30px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 50px;
+      font-size: 2rem;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: #11162a;
+      padding: 30px;
+      border-radius: 15px;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      margin-bottom: 15px;
+    }
+
+    .about {
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+      color: #d0d0d0;
+    }
+
+    .cta {
+      background: #ffffff;
+      color: #0b0f1a;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .cta h2 {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- Substitua o nome abaixo pelo arquivo da sua logo -->
+    <img src="logo.png" alt="GD Impacto Digital">
+    <h1>Transformamos marcas em impacto digital</h1>
+    <p>Marketing, tráfego pago e design estratégico para negócios que querem crescer todos os dias.</p>
+    <a class="btn" href="https://wa.me/5574991431715" target="_blank">Falar no WhatsApp</a>
+  </header>
+
+  <section>
+    <h2>O que fazemos</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Marketing Digital</h3>
+        <p>Estratégias para posicionar sua marca e atrair clientes no digital.</p>
+      </div>
+      <div class="card">
+        <h3>Tráfego Pago</h3>
+        <p>Anúncios estratégicos focados em alcance, leads e vendas.</p>
+      </div>
+      <div class="card">
+        <h3>Design & Branding</h3>
+        <p>Identidade visual forte, profissional e alinhada ao seu negócio.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Sobre a GD Impacto Digital</h2>
+    <p class="about">
+      A GD Impacto Digital nasceu com o propósito de transformar marcas em presença forte no digital.
+      Trabalhamos com estratégia, design e performance para gerar resultados reais.
+    </p>
+  </section>
+
+  <section class="cta">
+    <h2>Pronto para dar impacto no seu digital?</h2>
+    <a class="btn" href="https://wa.me/5574991431715" target="_blank">Chamar no WhatsApp</a>
+  </section>
+
+  <footer>
+    © 2026 GD Impacto Digital • Todos os direitos reservados
+  </footer>
+
+</body>
+</html>
